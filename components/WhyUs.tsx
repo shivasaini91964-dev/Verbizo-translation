@@ -1,4 +1,4 @@
-here// "Why Choose Us" trust section — used in place of testimonials since there
+// "Why Choose Us" trust section — used in place of testimonials since there
 // are no real client reviews yet. Swap this out for a Testimonials section
 // once you have a few genuine client quotes to feature (do not fabricate
 // reviews in the meantime — that's misleading to visitors).
