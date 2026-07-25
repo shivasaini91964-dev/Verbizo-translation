@@ -1,4 +1,4 @@
-hereimport { ImageResponse } from "next/og";
+import { ImageResponse } from "next/og";
 
 // Next.js auto-detects this file and generates /opengraph-image at build time —
 // no manual PNG asset needed. Edit the JSX below to change what shows up when
