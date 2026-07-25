@@ -1,4 +1,4 @@
-import { ImageResponse } from "next/og";
+hereimport { ImageResponse } from "next/og";
 
 // Next.js auto-detects this file and generates /opengraph-image at build time —
 // no manual PNG asset needed. Edit the JSX below to change what shows up when
@@ -19,10 +19,9 @@ export default function OGImage() {
           alignItems: "center",
           justifyContent: "center",
           backgroundColor: "#FFFFFF",
-        backgroundImage:
+          backgroundImage:
             "radial-gradient(circle at 20% 20%, rgba(79,70,229,0.25), transparent 50%), radial-gradient(circle at 80% 80%, rgba(20,184,166,0.25), transparent 50%)",
-              
-        
+        }}
       >
         <div
           style={{
@@ -67,4 +66,3 @@ export default function OGImage() {
     { ...size }
   );
 }
-
