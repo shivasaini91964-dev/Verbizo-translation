@@ -1,4 +1,4 @@
-here// Footer: wordmark, tagline, link columns, social icons, dynamic copyright year.
+// Footer: wordmark, tagline, link columns, social icons, dynamic copyright year.
 
 import { Languages, Instagram, Linkedin, Twitter } from "lucide-react";
 
