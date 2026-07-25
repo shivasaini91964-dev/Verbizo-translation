@@ -1,4 +1,4 @@
-here// Services grid: 4 core offerings with icon, title, description.
+// Services grid: 4 core offerings with icon, title, description.
 // Swap icons/copy to match the exact services you offer.
 
 import { FileText, Scale, Globe2, MessagesSquare } from "lucide-react";
