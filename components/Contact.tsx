@@ -70,23 +70,23 @@ export default function Contact() {
                 <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white border border-black/5 text-accent">
                   <Mail size={18} />
                 </div>
-                <a href="mailto:hello@verbizo.example.com" className="text-ink hover:text-accent transition-colors">
-                  hello@verbizo.example.com
+                <a href="mailto:shivasaini91964@gmail.com" className="text-ink hover:text-accent transition-colors">
+                  shivasaini91964@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-4">
                 <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white border border-black/5 text-coral">
                   <Phone size={18} />
                 </div>
-                <a href="tel:+910000000000" className="text-ink hover:text-coral transition-colors">
-                  +91 00000 00000
+                <a href="tel:+917060541389" className="text-ink hover:text-coral transition-colors">
+                  +91 70605 41389
                 </a>
               </div>
               <div className="flex items-center gap-4">
                 <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white border border-black/5 text-teal-hover">
                   <MapPin size={18} />
                 </div>
-                <span className="text-ink">Meerut, Uttar Pradesh, India</span>
+                <span className="text-ink">Moradabad, Uttar Pradesh, India</span>
               </div>
             </div>
           </div>
@@ -178,5 +178,4 @@ export default function Contact() {
       </div>
     </section>
   );
-}
-
+      }
