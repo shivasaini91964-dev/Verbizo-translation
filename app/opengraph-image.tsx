@@ -18,8 +18,9 @@ export default function OGImage() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          background:
-            "radial-gradient(circle at 20% 20%, rgba(79,70,229,0.25), transparent 50%), radial-gradient(circle at 80% 80%, rgba(20,184,166,0.25), transparent 50%), #FFFFFF",
+          backgroundColor: "#FFFFFF",
+        backgroundImage:
+            "radial-gradient(circle at 20% 20%, rgba(79,70,229,0.25), transparent 50%), radial-gradient(circle at 80% 80%, rgba(20,184,166,0.25), transparent 50%), 
         }}
       >
         <div
