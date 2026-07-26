@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
+import Script from "next/script";
 // TODO: swap https://verbizo.example.com for your real domain once you have one,
 // and update every occurrence below (openGraph.url, metadataBase, JSON-LD).
 export const metadata: Metadata = {
@@ -41,6 +41,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-KXZ814STYS"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-KXZ814STYS');
+          `}
+        </Script>
+      </head>
       <body>
         {/* Organization structured data for SEO — update url/sameAs once live */}
         <script
@@ -57,10 +71,9 @@ export default function RootLayout({
               knowsLanguage: ["en", "hi", "de", "fr"],
             }),
           }}
-        />
+         />
         {children}
       </body>
     </html>
   );
 }
-
